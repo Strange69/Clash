@@ -1,3 +1,4 @@
 proxies:
   - {name: 🇩🇪 www.outline.network (germany), server: ak1498.free.www.outline.network, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {"type":"vmess","name":"🇸🇬SG_AzadNet(11)","server":"139.99.90.122","port":443,"uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":32,"cipher":"auto","network":"tcp"}
+  - {name: Los-Angeles, server: los-angeles.us.socks.nordhold.net, port: 1080, type: socks5, password: iBTqEukdTamVY6HFJNZJn5go, username: 5Psih4pEEt1zYtksVzaMcGjf}
