@@ -184,4 +184,4 @@ rules:
   - DST-PORT,80,DIRECT
   - SRC-PORT,7777,DIRECT
   - RULE-SET,apple,REJECT # Premium only
-  - MATCH,🔰Proxyj
+  - MATCH,🔰Proxy
