@@ -181,6 +181,6 @@ rules:
   # optional param "no-resolve" for IP rules (GEOIP, IP-CIDR, IP-CIDR6)
   - IP-CIDR,127.0.0.0/8,DIRECT
   - GEOIP,CN,DIRECT
-  - DST-PORT,80,DIRECT
+#  - DST-PORT,80,DIRECT
   - SRC-PORT,7777,DIRECT
   - MATCH,🔰Proxy
