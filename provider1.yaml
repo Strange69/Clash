@@ -1,0 +1,2 @@
+proxies:
+  - {name: 🇩🇪 www.outline.network (germany), server: ak1498.free.www.outline.network, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
