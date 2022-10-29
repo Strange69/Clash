@@ -20,7 +20,7 @@ socks-port: 7891
 
 # Set to true to allow connections to the local-end server from
 # other LAN IP addresses
-allow-lan: false
+allow-lan: true
 
 # This is only applicable when `allow-lan` is `true`
 # '*': bind all IP addresses
@@ -133,15 +133,15 @@ dns:
   # are always used if not match `fallback-filter.ipcidr`.
   #
   # This is a countermeasure against DNS pollution attacks.
-  # fallback-filter:
-  #   geoip: true
-  #   geoip-code: CN
-  #   ipcidr:
-  #     - 240.0.0.0/4
-  #   domain:
-  #     - '+.google.com'
-  #     - '+.facebook.com'
-  #     - '+.youtube.com'
+   fallback-filter:
+     geoip: true
+     geoip-code: CN
+     ipcidr:
+       - 240.0.0.0/4
+     domain:
+       - '+.google.com'
+       - '+.facebook.com'
+       - '+.youtube.com'
   
   # Lookup domains via specific nameservers
   # nameserver-policy:
@@ -180,7 +180,7 @@ rules:
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
   # optional param "no-resolve" for IP rules (GEOIP, IP-CIDR, IP-CIDR6)
   - IP-CIDR,127.0.0.0/8,DIRECT
-  - GEOIP,CN,DIRECT
-#  - DST-PORT,80,DIRECT
+  - GEOIP,MM,DIRECT
+  - DST-PORT,80,DIRECT
   - SRC-PORT,7777,DIRECT
   - MATCH,🔰Proxy
