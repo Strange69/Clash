@@ -138,10 +138,10 @@ dns:
      #-code: CN
      #ipcidr:
      #  - 240.0.0.0/4
-     domain:
-       - '+.google.com'
-       - '+.facebook.com'
-       - '+.youtube.com'
+#     domain:
+ #      - '+.google.com'
+ #      - '+.facebook.com'
+#       - '+.youtube.com'
   
   # Lookup domains via specific nameservers
   # nameserver-policy:
